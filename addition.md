@@ -31,7 +31,7 @@ Scenario: Addition of two negative numbers
        And I type in "negative number"
        And I press "equals/enter"
   
-  Then I see the sum of the two numbers alongwith a -/+ sign depending upon the sign of the greater number as the result
+  Then I see the difference of the two numbers alongwith a -/+ sign depending upon the sign of the greater number as the result
   
   Scenario: Addition of fractions
   
